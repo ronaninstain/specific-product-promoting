@@ -1,0 +1,188 @@
+.custom-Alphabetic-exam-search-section-ks {
+  margin: 0 auto;
+  max-width: 1184px;
+  height: 83px;
+}
+
+.the-search-box-plus-heading-ks {
+  display: flex;
+  flex: row;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  background: #00c1ec;
+  border-radius: 50px;
+  padding: 0 10px;
+}
+
+.exam-search-ks-title h2 {
+  font-family: "Poppins";
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #192a56;
+}
+
+.exam-search-ks-box form#search {
+  background: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  width: 538px;
+  height: 64px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  align-content: center;
+  padding: 0 30px;
+}
+
+.exam-search-ks-box form#search input#search-exam {
+  border: 0;
+  color: #000000;
+  font-family: "Poppins";
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+}
+
+.exam-search-ks-box form#search button.sbtn {
+  border: 0;
+  font-size: 24px;
+  background: transparent;
+  line-height: 36px;
+  font-weight: 500;
+}
+
+.the-main-list-ks-exams ul {
+  columns: 2;
+  list-style: none;
+}
+
+.the-exam-searching-content-ks {
+  padding: 30px 0;
+}
+
+.the-main-list-ks-exams ul li {
+  background: #f7f7f7;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px;
+  padding: 35px;
+}
+
+.exam-search-ks-title {
+  padding: 0 50px;
+}
+
+.the-main-list-ks-exams ul li a {
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 36px;
+  font-weight: 24px;
+  color: #000000;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.the-all-search-exam-btn-ks {
+  padding: 0 30px;
+}
+
+.the-all-search-exam-btn-ks a {
+  color: #05c1eb;
+  font-family: "Poppins";
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .the-search-box-plus-heading-ks {
+    padding: 0 10px;
+  }
+
+  .exam-search-ks-title {
+    padding: 0 15px;
+  }
+
+  .exam-search-ks-box form#search {
+    width: 405px;
+    height: 45px;
+    padding: 0px 20px;
+  }
+
+  .exam-search-ks-title h2 {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .exam-search-ks-box form#search input#search-exam {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .the-main-list-ks-exams ul li a {
+    line-height: 35px;
+    font-size: 19px;
+  }
+
+  .the-main-list-ks-exams ul li {
+    margin-bottom: 25px;
+    padding: 25px;
+  }
+
+  .the-all-search-exam-btn-ks {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .the-search-box-plus-heading-ks {
+    flex-direction: column;
+    background: #00c1ec;
+    border-radius: 0px;
+    padding: 40px 0px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .exam-search-ks-title h2 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .exam-search-ks-title {
+    padding: 0 0px;
+  }
+
+  .exam-search-ks-box form#search {
+    width: 385px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 0px 0px;
+  }
+
+  .the-main-list-ks-exams ul li {
+    padding: 10px;
+  }
+
+  .the-main-list-ks-exams ul {
+    columns: 1;
+    padding: 0;
+  }
+
+  .exam-search-ks-box form#search input#search-exam {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .exam-search-ks-box form#search {
+    width: 325px;
+  }
+
+  .the-all-search-exam-btn-ks {
+    padding: 0 0;
+    text-align: center;
+  }
+}
