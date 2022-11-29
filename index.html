@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test file</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <style>
+        .custom-Alphabetic-exam-search-section-ks {
+            margin: 0 auto;
+            max-width: 1184px;
+            height: 83px;
+        }
+
+        .the-search-box-plus-heading-ks {
+            display: flex;
+            flex: row;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+            background: #00C1EC;
+            border-radius: 50px;
+            padding: 0 10px;
+        }
+
+        .exam-search-ks-title h2 {
+            font-family: 'Poppins';
+            font-size: 32px;
+            line-height: 48px;
+            font-weight: 700;
+            color: #192A56;
+        }
+
+        .exam-search-ks-box form#search {
+            background: #fff;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+            width: 538px;
+            height: 64px;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            align-items: center;
+            align-content: center;
+            padding: 0 30px;
+        }
+
+        .exam-search-ks-box form#search input#search-exam {
+            border: 0;
+            color: #000000;
+            font-family: 'Poppins';
+            font-size: 24px;
+            line-height: 36px;
+            font-weight: 500;
+        }
+
+        .exam-search-ks-box form#search button.sbtn {
+            border: 0;
+            font-size: 24px;
+            background: transparent;
+            line-height: 36px;
+            font-weight: 500;
+        }
+
+        .the-main-list-ks-exams ul {
+            columns: 2;
+            list-style: none;
+        }
+
+        .the-exam-searching-content-ks {
+            padding: 30px 0;
+        }
+
+        .the-main-list-ks-exams ul li {
+            background: #F7F7F7;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+            margin-bottom: 40px;
+            padding: 35px;
+        }
+
+        .exam-search-ks-title {
+            padding: 0 50px;
+        }
+
+        .the-main-list-ks-exams ul li a {
+            font-family: 'Poppins';
+            font-weight: 500;
+            line-height: 36px;
+            font-weight: 24px;
+            color: #000000;
+            font-size: 24px;
+            text-transform: capitalize;
+        }
+
+        .the-all-search-exam-btn-ks {
+            padding: 0 30px;
+        }
+
+        .the-all-search-exam-btn-ks a {
+            color: #05C1EB;
+            font-family: 'Poppins';
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 700;
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            .the-search-box-plus-heading-ks {
+                padding: 0 10px;
+            }
+
+            .exam-search-ks-title {
+                padding: 0 15px;
+            }
+
+            .exam-search-ks-box form#search {
+                width: 405px;
+                height: 45px;
+                padding: 0px 20px;
+            }
+
+            .exam-search-ks-title h2 {
+                font-size: 22px;
+                line-height: 35px;
+            }
+
+            .exam-search-ks-box form#search input#search-exam {
+                font-size: 20px;
+                line-height: 27px;
+            }
+
+            .the-main-list-ks-exams ul li a {
+                line-height: 35px;
+                font-size: 19px;
+            }
+
+            .the-main-list-ks-exams ul li {
+                margin-bottom: 25px;
+                padding: 25px;
+            }
+
+            .the-all-search-exam-btn-ks {
+                padding: 0 20px;
+            }
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 767px) {
+            .the-search-box-plus-heading-ks {
+                flex-direction: column;
+                background: #00C1EC;
+                border-radius: 0px;
+                padding: 40px 0px;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            .exam-search-ks-title h2 {
+                font-size: 22px;
+                line-height: 22px;
+            }
+
+            .exam-search-ks-title {
+                padding: 0 0px;
+            }
+
+            .exam-search-ks-box form#search {
+                width: 385px;
+                height: 40px;
+                border-radius: 15px;
+                padding: 0px 0px;
+            }
+
+            .the-main-list-ks-exams ul li {
+                padding: 10px;
+            }
+
+            .the-main-list-ks-exams ul {
+                columns: 1;
+                padding: 0;
+            }
+
+            .exam-search-ks-box form#search input#search-exam {
+                font-size: 18px;
+                line-height: 20px;
+            }
+
+            .exam-search-ks-box form#search {
+                width: 325px;
+            }
+
+            .the-all-search-exam-btn-ks {
+                padding: 0 0;
+                text-align: center;
+            }
+        }
+    </style>
+    <div class="container">
+        <div class="custom-Alphabetic-exam-search-section-ks">
+            <div class="the-search-box-plus-heading-ks">
+                <div class="exam-search-ks-title">
+                    <h2>HOT CERTIFICATIONS</h2>
+                </div>
+                <div class="exam-search-ks-box">
+                    <form id="search" action="https://www.kingstonopencollege.co.uk/">
+                        <input type="hidden" name="post_type" value="course">
+                        <input type="text" class="search-exam" id="search-exam" name="search-exam"
+                            placeholder="search for exams" value="" onkeyup="searchExam()">
+                        <button type="submit" class="sbtn"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="the-exam-searching-content-ks">
+                <div class="the-main-list-ks-exams" id="the-main-list-ks-exams">
+                    <ul>
+                       <!-- items will be added dynamically by array in script -->
+                    </ul>
+                </div>
+                <div class="the-all-search-exam-btn-ks">
+                    <a href="#">View All <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const exams = [{
+            title: "CompTIA Security + (SY0-601)",
+            link: "#"
+        },
+        {
+            title: "CompTIA A+",
+            link: "#"
+        },
+        {
+            title: "CCNP Enterprice (350-401)",
+            link: "#"
+        },
+        {
+            title: "CCNA (200-301)",
+            link: "#"
+        },
+        {
+            title: "AWS Certified Solutions Architect -Associate",
+            link: "#"
+        },
+        {
+            title: "Microsoft Certified Azure Fundamentals AZ-900)",
+            link: "#"
+        },
+        {
+            title: "CASP-004 (CAS-004)",
+            link: "#"
+        },
+        {
+            title: "CompTIA Network+ (N10-008)",
+            link: "#"
+        },
+        {
+            title: "ITIL V4 Foundation (ITILFND V4)",
+            link: "#"
+        },
+        {
+            title: "Microsoft Certified: Azure Solutions Architect Expert(AZ-305)",
+            link: "#"
+        },
+        {
+            title: "CCIE Enterprise (350-401)",
+            link: "#"
+        },
+        {
+            title: "CISSP (CISSP)",
+            link: "#"
+        },
+        {
+            title: "AWS Certified Solution Architect - Professional (SAP-C01)",
+            link: "#"
+        },
+        {
+            title: "CCNP Collaboration (350-801)",
+            link: "#"
+        },
+       
+        {
+            title: "Web Development",
+            link: "#"
+        },
+        ]
+        const examList = document.querySelector("#the-main-list-ks-exams ul");
+
+        exams.forEach((exam, index) => {
+           
+            const listItem = document.createElement("li");
+                listItem.innerHTML = `
+               <a href=${exam.link}>${index + 1}. ${exam.title}</a>
+                `;
+                examList.append(listItem);
+        })
+        function searchExam() {
+            let inputValue = document.getElementById("search-exam").value.toLowerCase();
+            const filteredExam = exams.filter((course) => (
+                course.title.toLowerCase().includes(inputValue)
+            ));
+
+
+          
+            if (filteredExam.length > 0) {
+                examList.innerHTML = ``
+            }
+            filteredExam.forEach((item, index) => {
+                const listItem = document.createElement("li");
+                listItem.innerHTML = `
+               <a href=${item.link}>${index + 1}. ${item.title}</a>
+                `
+                // listItem.innerText = item.title;
+                // listItem.href = item.link;
+                examList.append(listItem);
+            })
+
+
+        }
+        // console.log(exams)
+    </script>
+</body>
+
+</html>
